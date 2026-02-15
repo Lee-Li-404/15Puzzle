@@ -978,7 +978,7 @@ if __name__ == "__main__":
         pass
 
     # 只在主进程创建这些资源
-    client = genai.Client(api_key="AIzaSyBz4ov7FT2rlt4VfePIsMGUNz-Rtlrn4o0")
+    client = genai.Client(api_key="")
     API_MAX_CONCURRENCY = 8
     api_sem = asyncio.Semaphore(API_MAX_CONCURRENCY)
 
